@@ -67,7 +67,7 @@ export default function AccountsPage() {
               <p className="text-gray-400 text-sm mb-2">054053775861350</p>
               <div className="flex justify-between items-center">
                 <span className="text-gray-400 text-sm">Current Balance</span>
-                <span className="text-white font-semibold">KES 100,067.45</span>
+                <span className="text-white font-semibold">KES 67,067.45</span>
               </div>
             </div>
           </div>
