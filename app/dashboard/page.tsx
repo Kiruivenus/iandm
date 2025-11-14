@@ -15,7 +15,7 @@ const originalTransactions = [
     reference: "2265ASEL8717",
     from: "0540537758615O",
     type: "MOBILE MONEY",
-    amount: -850.0,
+    amount: -1020.0,
     description: "254729059088/MPESA Payment to 254729059088",
     beneficiary: "254729059088",
     icon: "↗",
@@ -162,7 +162,7 @@ export default function DashboardPage() {
   const [eyeClickTimeout, setEyeClickTimeout] = useState<NodeJS.Timeout | null>(null)
   const [showAccountEditor, setShowAccountEditor] = useState(false)
   const [accountName, setAccountName] = useState("Patrick Kiprotich Kirui")
-  const [accountBalance, setAccountBalance] = useState("100,067.45")
+  const [accountBalance, setAccountBalance] = useState("67.45")
   const [tempName, setTempName] = useState("")
   const [tempBalance, setTempBalance] = useState("")
   const [allTransactions, setAllTransactions] = useState(originalTransactions)
